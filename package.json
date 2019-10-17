@@ -1,0 +1,43 @@
+{
+  "name": "intern_cloud",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "frappe-gantt": "^0.3.0",
+    "frappe-gantt-react": "^0.2.2",
+    "gantt-for-react": "^0.2.0",
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.10.2",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-bootstrap-table": "^4.3.1",
+    "react-dom": "^16.10.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "json": "json-server --watch src/intern.json --port 3004",
+    "json-remote": "json-server http://example.com/file.json --port 3004"
+  },
+  "proxy": "https://totalcloud-static.s3.amazonaws.com",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
