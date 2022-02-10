@@ -8,7 +8,7 @@
     "frappe-gantt-react": "^0.2.2",
     "gantt-for-react": "^0.2.0",
     "moment": "^2.24.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "react": "^16.10.2",
     "react-bootstrap": "^1.0.0-beta.14",
     "react-bootstrap-table": "^4.3.1",
